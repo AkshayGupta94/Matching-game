@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KUNAL</Machine>
+    <WindowsUser>Kunal</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0232ae96-25d9-4009-8518-369dd98b8577</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A172A1C50E54A4A16DDD622F4CF65DBBF455055EE94A69256B2C2A9FE2F01C2C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0232ae96-25d9-4009-8518-369dd98b8577_1.0.0.0_neutral__n8a2ervqrv9ya</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0232ae96-25d9-4009-8518-369dd98b8577_n8a2ervqrv9ya!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0232ae96-25d9-4009-8518-369dd98b8577</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kunal</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-14T05:46:55.880</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\cf.exe">
+      <PackagePath>cf.exe</PackagePath>
+      <Modified>2015-03-14T05:59:35.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.Data.Universal.dll">
+      <PackagePath>Syncfusion.Data.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.DocIO.Universal.dll">
+      <PackagePath>Syncfusion.DocIO.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:20:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.Pdf.Universal.dll">
+      <PackagePath>Syncfusion.Pdf.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal.dll">
+      <PackagePath>Syncfusion.SfAccordion.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBarcode.Universal.dll">
+      <PackagePath>Syncfusion.SfBarcode.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:20:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.Universal.dll">
+      <PackagePath>Syncfusion.SfBulletGraph.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:20:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal.dll">
+      <PackagePath>Syncfusion.SfCarousel.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfChart.Universal.dll">
+      <PackagePath>Syncfusion.SfChart.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:21:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal.dll">
+      <PackagePath>Syncfusion.SfColorPickers.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfDiagram.Universal.dll">
+      <PackagePath>Syncfusion.SfDiagram.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:22:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal.dll">
+      <PackagePath>Syncfusion.SfGauge.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal.dll">
+      <PackagePath>Syncfusion.SfGrid.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:21:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal.dll">
+      <PackagePath>Syncfusion.SfGridConverter.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:22:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal.dll">
+      <PackagePath>Syncfusion.SfHubTile.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfInput.Universal.dll">
+      <PackagePath>Syncfusion.SfInput.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfMaps.Universal.dll">
+      <PackagePath>Syncfusion.SfMaps.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal.dll">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal.dll">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal.dll</PackagePath>
+      <Modified>2014-10-28T05:02:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal.dll">
+      <PackagePath>Syncfusion.SfSchedule.Universal.dll</PackagePath>
+      <Modified>2014-10-28T05:02:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfShared.Universal.dll">
+      <PackagePath>Syncfusion.SfShared.Universal.dll</PackagePath>
+      <Modified>2014-10-28T05:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTabControl.Universal.dll">
+      <PackagePath>Syncfusion.SfTabControl.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal.dll">
+      <PackagePath>Syncfusion.SfTileView.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTreeMap.Universal.dll">
+      <PackagePath>Syncfusion.SfTreeMap.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal.dll">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\References\CommonConfiguration\neutral\Syncfusion.XlsIO.Universal.dll">
+      <PackagePath>Syncfusion.XlsIO.Universal.dll</PackagePath>
+      <Modified>2014-10-22T15:21:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\GridFiltering\Themes\AdvancedFilterControl.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\GridFiltering\Themes\AdvancedFilterControl.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\ChartArea\Themes\ChartArea.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\ChartArea\Themes\ChartArea.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\ChartAxis\Themes\ChartAxis.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\ChartAxis\Themes\ChartAxis.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\3D\ChartSeries\Themes\ChartSeries.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\3D\ChartSeries\Themes\ChartSeries.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\ChartSeries\Themes\ChartSeries.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\ChartSeries\Themes\ChartSeries.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal\CircularGauge\Themes\CircularGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.Universal\CircularGauge\Themes\CircularGauge.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.Universal\Themes\ColorPalette.xbf">
+      <PackagePath>Syncfusion.SfMaps.Universal\Themes\ColorPalette.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal\DigitalGauge\Themes\DigitalGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.Universal\DigitalGauge\Themes\DigitalGauge.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Themes\Generic.Common.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Themes\Generic.Common.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Themes\Generic.Legend.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Themes\Generic.Legend.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Themes\Generic.Symbol.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Themes\Generic.Symbol.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfAccordion.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfBarcode.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfBulletGraph.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfCarousel.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfDiagram.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGauge.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\ColumnChooser\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\ColumnChooser\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Control\DetailsView\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Control\DetailsView\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Control\GroupDropArea\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Control\GroupDropArea\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Control\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Control\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\DataPager\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\DataPager\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\GridCommon\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\GridCommon\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\GridFiltering\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\GridFiltering\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Print\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Print\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfHubTile.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfInput.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfMaps.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfShared.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfTabControl.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfTileView.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeMap.Universal\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfTreeMap.Universal\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal\Themes\generic.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\Windows\GenericWindows.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\Windows\GenericWindows.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\GenericWindowsPhone.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\GenericWindowsPhone.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.Universal\Themes\GenericWinRT.xbf">
+      <PackagePath>Syncfusion.SfDiagram.Universal\Themes\GenericWinRT.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal\LinearGauge\Themes\LinearGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.Universal\LinearGauge\Themes\LinearGauge.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Styles\PhoneStyle.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Styles\PhoneStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Controls\Themes\ResizableScrollBar.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Controls\Themes\ResizableScrollBar.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Controls\Themes\Resizer.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Controls\Themes\Resizer.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleAppointmentEditor.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleAppointmentEditor.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleAppointmentResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleAppointmentResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleAppointmentResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleAppointmentResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleDaysViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleDaysViewResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleDaysViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleDaysViewResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleMonthViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleMonthViewResources.xbf</PackagePath>
+      <Modified>2014-10-28T05:02:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleMonthViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleMonthViewResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleTimeLineViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleTimeLineViewResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleTimeLineViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\Windows\ScheduleTimeLineViewResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleWeekViewResources.xbf">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Themes\WindowsPhone\ScheduleWeekViewResources.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\3D\ChartArea\Themes\SfChart3D.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\3D\ChartArea\Themes\SfChart3D.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Controls\Themes\SfRangeNavigator.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Controls\Themes\SfRangeNavigator.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Sparkline\Themes\Sparkline.xbf">
+      <PackagePath>Syncfusion.SfChart.Universal\Sparkline\Themes\Sparkline.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Styles\Styles.xbf">
+      <PackagePath>Syncfusion.SfGrid.Universal\Styles\Styles.xbf</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.Universal\Themes\Templates.xbf">
+      <PackagePath>Syncfusion.SfMaps.Universal\Themes\Templates.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal\Themes\WinRTAccordionStyle.xbf">
+      <PackagePath>Syncfusion.SfAccordion.Universal\Themes\WinRTAccordionStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal\Themes\WinRTBusyIndicatorStyle.xbf">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal\Themes\WinRTBusyIndicatorStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal\Themes\WinRTCarouselStyle.xbf">
+      <PackagePath>Syncfusion.SfCarousel.Universal\Themes\WinRTCarouselStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Themes\WinRTColorPickersStyle.xbf">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Themes\WinRTColorPickersStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal\Themes\WinRTHubTileStyle.xbf">
+      <PackagePath>Syncfusion.SfHubTile.Universal\Themes\WinRTHubTileStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.Universal\Themes\WinRTInputStyles.xbf">
+      <PackagePath>Syncfusion.SfInput.Universal\Themes\WinRTInputStyles.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal\Themes\WinRTRadialMenuStyle.xbf">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal\Themes\WinRTRadialMenuStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.Universal\Themes\WinRTResource.xbf">
+      <PackagePath>Syncfusion.SfDiagram.Universal\Themes\WinRTResource.xbf</PackagePath>
+      <Modified>2014-10-22T15:22:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal\Themes\WinRTTileViewStyle.xbf">
+      <PackagePath>Syncfusion.SfTileView.Universal\Themes\WinRTTileViewStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal\Themes\WinRTTreeNavigatorStyle.xbf">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal\Themes\WinRTTreeNavigatorStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal\Themes\WPAccordionStyle.xbf">
+      <PackagePath>Syncfusion.SfAccordion.Universal\Themes\WPAccordionStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal\Themes\WPBusyIndicatorStyle.xbf">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal\Themes\WPBusyIndicatorStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal\Themes\WPCarouselStyle.xbf">
+      <PackagePath>Syncfusion.SfCarousel.Universal\Themes\WPCarouselStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Themes\WPColorPickersStyle.xbf">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Themes\WPColorPickersStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal\Themes\WPHubTileStyle.xbf">
+      <PackagePath>Syncfusion.SfHubTile.Universal\Themes\WPHubTileStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.Universal\Themes\WPInputStyles.xbf">
+      <PackagePath>Syncfusion.SfInput.Universal\Themes\WPInputStyles.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal\Themes\WPRadialMenuStyle.xbf">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal\Themes\WPRadialMenuStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal\Themes\WPTileViewStyle.xbf">
+      <PackagePath>Syncfusion.SfTileView.Universal\Themes\WPTileViewStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal\Themes\WPTreeNavigatorStyle.xbf">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal\Themes\WPTreeNavigatorStyle.xbf</PackagePath>
+      <Modified>2014-10-22T15:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.Data.Universal\Syncfusion.Data.Universal.xml">
+      <PackagePath>Syncfusion.Data.Universal\Syncfusion.Data.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Syncfusion.Data.Universal.xml">
+      <PackagePath>Syncfusion.SfGrid.Universal\Syncfusion.Data.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.Data.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.Data.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.DocIO.Universal\Syncfusion.DocIO.Universal.xml">
+      <PackagePath>Syncfusion.DocIO.Universal\Syncfusion.DocIO.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.DocIO.Universal.xml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.DocIO.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.Pdf.Universal\Syncfusion.Pdf.Universal.xml">
+      <PackagePath>Syncfusion.Pdf.Universal\Syncfusion.Pdf.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.Pdf.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.Pdf.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal\Syncfusion.SfAccordion.Universal.xml">
+      <PackagePath>Syncfusion.SfAccordion.Universal\Syncfusion.SfAccordion.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal\Syncfusion.SfAccordion.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfAccordion.Universal\Syncfusion.SfAccordion.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.Universal\Syncfusion.SfBarcode.Universal.xml">
+      <PackagePath>Syncfusion.SfBarcode.Universal\Syncfusion.SfBarcode.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.Universal\Syncfusion.SfBarcode.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfBarcode.Universal\Syncfusion.SfBarcode.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:20:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.Universal\Syncfusion.SfBulletGraph.Universal.xml">
+      <PackagePath>Syncfusion.SfBulletGraph.Universal\Syncfusion.SfBulletGraph.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.Universal\Syncfusion.SfBulletGraph.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfBulletGraph.Universal\Syncfusion.SfBulletGraph.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:20:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal\Syncfusion.SfBusyIndicator.Universal.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal\Syncfusion.SfBusyIndicator.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal\Syncfusion.SfBusyIndicator.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal\Syncfusion.SfBusyIndicator.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal\Syncfusion.SfCarousel.Universal.xml">
+      <PackagePath>Syncfusion.SfCarousel.Universal\Syncfusion.SfCarousel.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal\Syncfusion.SfCarousel.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfCarousel.Universal\Syncfusion.SfCarousel.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Syncfusion.SfChart.Universal.xml">
+      <PackagePath>Syncfusion.SfChart.Universal\Syncfusion.SfChart.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:21:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.Universal\Syncfusion.SfChart.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfChart.Universal\Syncfusion.SfChart.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:20:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Syncfusion.SfColorPickers.Universal.xml">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Syncfusion.SfColorPickers.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Syncfusion.SfColorPickers.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Syncfusion.SfColorPickers.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.Universal\Syncfusion.SfDiagram.Universal.xml">
+      <PackagePath>Syncfusion.SfDiagram.Universal\Syncfusion.SfDiagram.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:22:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.Universal\Syncfusion.SfDiagram.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfDiagram.Universal\Syncfusion.SfDiagram.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:22:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal\Syncfusion.SfGauge.Universal.xml">
+      <PackagePath>Syncfusion.SfGauge.Universal\Syncfusion.SfGauge.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.Universal\Syncfusion.SfGauge.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfGauge.Universal\Syncfusion.SfGauge.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:21:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Syncfusion.SfGrid.Universal.xml">
+      <PackagePath>Syncfusion.SfGrid.Universal\Syncfusion.SfGrid.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:21:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.SfGrid.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.SfGrid.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:21:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Syncfusion.SfGrid.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfGrid.Universal\Syncfusion.SfGrid.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.SfGridConverter.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.SfGridConverter.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:22:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal\Syncfusion.SfHubTile.Universal.xml">
+      <PackagePath>Syncfusion.SfHubTile.Universal\Syncfusion.SfHubTile.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal\Syncfusion.SfHubTile.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfHubTile.Universal\Syncfusion.SfHubTile.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Syncfusion.SfInput.Universal.xml">
+      <PackagePath>Syncfusion.SfGrid.Universal\Syncfusion.SfInput.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.SfInput.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.SfInput.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.Universal\Syncfusion.SfInput.Universal.xml">
+      <PackagePath>Syncfusion.SfInput.Universal\Syncfusion.SfInput.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Syncfusion.SfInput.Universal.xml">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Syncfusion.SfInput.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.Universal\Syncfusion.SfInput.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfInput.Universal\Syncfusion.SfInput.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.Universal\Syncfusion.SfMaps.Universal.xml">
+      <PackagePath>Syncfusion.SfMaps.Universal\Syncfusion.SfMaps.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.Universal\Syncfusion.SfMaps.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfMaps.Universal\Syncfusion.SfMaps.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Syncfusion.SfRadialMenu.Universal.xml">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Syncfusion.SfRadialMenu.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal\Syncfusion.SfRadialMenu.Universal.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal\Syncfusion.SfRadialMenu.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfRadialMenu.Universal.xml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfRadialMenu.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Syncfusion.SfRadialMenu.Universal.xml">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Syncfusion.SfRadialMenu.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal\Syncfusion.SfRadialMenu.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal\Syncfusion.SfRadialMenu.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfRichTextBoxAdv.Universal.xml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfRichTextBoxAdv.Universal.xml</PackagePath>
+      <Modified>2014-10-28T05:02:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfRichTextBoxAdv.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfRichTextBoxAdv.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:22:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Syncfusion.SfSchedule.Universal.xml">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Syncfusion.SfSchedule.Universal.xml</PackagePath>
+      <Modified>2014-10-28T05:02:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Syncfusion.SfSchedule.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Syncfusion.SfSchedule.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfAccordion.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfCarousel.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfColorPickers.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfGrid.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfHubTile.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfInput.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-28T05:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-28T05:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfShared.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-28T05:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfTabControl.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfTileView.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal\Syncfusion.SfShared.Universal.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal\Syncfusion.SfShared.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.Universal\Syncfusion.SfShared.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfShared.Universal\Syncfusion.SfShared.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:18:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfSchedule.Universal\Syncfusion.SfTabControl.Universal.xml">
+      <PackagePath>Syncfusion.SfSchedule.Universal\Syncfusion.SfTabControl.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.Universal\Syncfusion.SfTabControl.Universal.xml">
+      <PackagePath>Syncfusion.SfTabControl.Universal\Syncfusion.SfTabControl.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.Universal\Syncfusion.SfTabControl.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfTabControl.Universal\Syncfusion.SfTabControl.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal\Syncfusion.SfTileView.Universal.xml">
+      <PackagePath>Syncfusion.SfTileView.Universal\Syncfusion.SfTileView.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.Universal\Syncfusion.SfTileView.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfTileView.Universal\Syncfusion.SfTileView.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeMap.Universal\Syncfusion.SfTreeMap.Universal.xml">
+      <PackagePath>Syncfusion.SfTreeMap.Universal\Syncfusion.SfTreeMap.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeMap.Universal\Syncfusion.SfTreeMap.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfTreeMap.Universal\Syncfusion.SfTreeMap.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal\Syncfusion.SfTreeNavigator.Universal.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal\Syncfusion.SfTreeNavigator.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.Universal\Syncfusion.SfTreeNavigator.Universal.xr.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.Universal\Syncfusion.SfTreeNavigator.Universal.xr.xml</PackagePath>
+      <Modified>2014-10-22T15:20:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridConverter.Universal\Syncfusion.XlsIO.Universal.xml">
+      <PackagePath>Syncfusion.SfGridConverter.Universal\Syncfusion.XlsIO.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:21:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Syncfusion\Essential Studio\12.3.0.36\Universal\8.1\SDK\Redist\CommonConfiguration\neutral\Syncfusion.XlsIO.Universal\Syncfusion.XlsIO.Universal.xml">
+      <PackagePath>Syncfusion.XlsIO.Universal\Syncfusion.XlsIO.Universal.xml</PackagePath>
+      <Modified>2014-10-22T15:21:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\1.JPG">
+      <PackagePath>Assets\1.JPG</PackagePath>
+      <Modified>2015-03-14T02:59:57.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\2.jpg">
+      <PackagePath>Assets\2.jpg</PackagePath>
+      <Modified>2015-03-14T03:04:12.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\3.jpg">
+      <PackagePath>Assets\3.jpg</PackagePath>
+      <Modified>2015-03-14T01:20:47.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\4.jpg">
+      <PackagePath>Assets\4.jpg</PackagePath>
+      <Modified>2015-03-14T02:57:35.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\5.jpg">
+      <PackagePath>Assets\5.jpg</PackagePath>
+      <Modified>2015-03-13T22:58:04.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\6.jpg">
+      <PackagePath>Assets\6.jpg</PackagePath>
+      <Modified>2015-03-14T05:39:41.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\7.jpg">
+      <PackagePath>Assets\7.jpg</PackagePath>
+      <Modified>2015-03-14T05:42:46.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\bg.jpg">
+      <PackagePath>Assets\bg.jpg</PackagePath>
+      <Modified>2015-03-14T01:36:15.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\bg1.jpg">
+      <PackagePath>Assets\bg1.jpg</PackagePath>
+      <Modified>2015-03-14T01:45:18.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\blurred-cello-abstract-01-musical-instrument-by-melody-watson.jpg">
+      <PackagePath>Assets\blurred-cello-abstract-01-musical-instrument-by-melody-watson.jpg</PackagePath>
+      <Modified>2015-03-14T02:39:51.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\2.bmp">
+      <PackagePath>Assets\2.bmp</PackagePath>
+      <Modified>2015-03-13T18:15:21.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\20640.png">
+      <PackagePath>Assets\20640.png</PackagePath>
+      <Modified>2015-03-14T02:01:26.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\asdasdwd3.png">
+      <PackagePath>Assets\asdasdwd3.png</PackagePath>
+      <Modified>2015-03-14T02:54:36.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-14T05:46:37.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\explorer.xbf">
+      <PackagePath>explorer.xbf</PackagePath>
+      <Modified>2015-03-14T05:46:37.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-03-14T05:55:18.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\startupPage.xbf">
+      <PackagePath>startupPage.xbf</PackagePath>
+      <Modified>2015-03-14T05:46:37.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\cf.xr.xml">
+      <PackagePath>cf.xr.xml</PackagePath>
+      <Modified>2015-03-14T05:54:47.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kunal Sachdeva\documents\visual studio 2013\Projects\cf\cf\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-14T05:46:55.460</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
